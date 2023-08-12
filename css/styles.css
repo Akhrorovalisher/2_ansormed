@@ -1,0 +1,287 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Arial", "sans-serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+*:focus{
+outline: 2px dotted #ff7500;
+outline-offset: 3px;
+}
+
+/* CONTAINER */
+
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-header{
+  background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.site-header-logo-img{
+  width: 50px;
+  height: 49.936px;
+  margin-right: 16px;
+  border-radius: 50%;
+}
+
+.site-header-logo-text{
+  color: #222;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.site-header-actions{
+  display: flex;
+  align-items: center;
+}
+
+.site-nav-list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 32px;
+}
+
+.li-link{
+  margin-right: 32px;
+}
+
+.li-link:last-child{
+  margin: 0;
+}
+
+.site-nav-list a{
+  color: #222;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sign-up-link{
+  color: #FFF;
+  background-color: #DE2E54;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif ;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 12px 24px;
+  border: 2px solid #DE2E54;
+  text-decoration: none
+}
+
+.site-hero{
+  background-color: #0EB4C1;
+  color: #fff;
+}
+
+.site-hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-main{
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.hero-heading{
+  font-family: "Roboto Condensed";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.hero-main p {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 36px;
+}
+
+.hero-img{
+  padding-top: 29px;
+
+}
+
+.services-bg{
+  background-color: #fff;
+
+}
+
+.services-bg-container{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.services-bg-container h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 56px;
+  color: #000;
+  font-family: "Roboto Condensed";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.frame{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.frame:last-child{
+  margin-bottom: 60px;
+}
+
+.services-bg-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 24px;
+  box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.30);
+  margin-right: 64px;
+}
+
+.services-bg-text h3{
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.services-bg-text p{
+  width: 600px;
+  margin: 0;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle{
+  background-color: #0EB4C1;
+  color: #fff;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.rectangel-container h2 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: "roboto condensed";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+  }
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link{
+  text-decoration: none;
+  color: #fff;
+  font-family: "roboto condensed";
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-right: 40px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+
+}
+
+.social-link:last-child{
+  margin: 0;
+}
+
+.site-footer{
+  background-color: #222;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer-logo-text{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.site-footer-actions{
+  display: flex;
+  align-items: center;
+}
+
+.site-footer-nav-list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 32px;
+}
+
+
+.site-footer-nav-list a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
