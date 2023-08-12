@@ -13,8 +13,8 @@ body{
 }
 
 *:focus{
-outline: 2px dotted #ff7500;
-outline-offset: 3px;
+  outline: 3px dotted #DE2E54;
+  outline-offset: 3px;
 }
 
 /* CONTAINER */
@@ -44,6 +44,12 @@ outline-offset: 3px;
   display: flex;
   align-items: center;
   text-decoration: none;
+  transition: color 0.4s ease,
+  opacit 0.4s ease;
+}
+
+.logo-link:active{
+  opacity: 0.6;
 }
 
 .site-header-logo-img{
@@ -58,6 +64,10 @@ outline-offset: 3px;
   font-size: 24px;
   font-weight: 600;
   line-height: normal;
+}
+
+.site-header-logo-text:hover{
+  color: #de2E54;
 }
 
 .site-header-actions{
@@ -88,6 +98,16 @@ outline-offset: 3px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+  transition: .3s ease color,
+  .3s ease opacity;
+}
+
+.site-nav-list a:hover{
+  color: #de2e54;
+}
+
+.site-nav-list a:active{
+  opacity: 0.6;
 }
 
 .sign-up-link{
@@ -102,7 +122,20 @@ outline-offset: 3px;
   border-radius: 8px;
   padding: 12px 24px;
   border: 2px solid #DE2E54;
-  text-decoration: none
+  text-decoration: none;
+  transition: .3s ease color,
+  .3s ease background-color, .3s ease opacity;
+}
+
+.sign-up-link:hover{
+  background-color: #fff;
+  color: #de2e54;
+}
+
+.sign-up-link:active{
+  opacity: 0.6;
+  background-color:#ed2e54;
+  color: #fff;
 }
 
 .site-hero{
@@ -135,6 +168,31 @@ outline-offset: 3px;
   font-size: 18px;
   margin: 0;
   margin-bottom: 36px;
+}
+
+.hero-sign-up-link{
+  color: #FFF;
+  background-color: #DE2E54;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif ;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 12px 24px;
+  border: 2px solid #DE2E54;
+  text-decoration: none;
+  transition: .3s ease color,
+  .3s ease background-color, .3s ease opacity;
+}
+
+.hero-sign-up-link:hover{
+  opacity: .8;
+}
+
+.hero-sign-up-link:active{
+  opacity: .6;
 }
 
 .hero-img{
@@ -236,7 +294,17 @@ outline-offset: 3px;
   padding: 12px 24px;
   border-radius: 8px;
   border: 2px solid #fff;
+  transition: .3s ease color,
+  .3s ease background-color, .3s ease opacity;
+}
 
+.social-link:hover{
+  background-color:  #de2e54;
+  border: 2px solid #DE2E54;
+}
+
+.social-link:active{
+  opacity: 0.6;
 }
 
 .social-link:last-child{
@@ -260,8 +328,18 @@ outline-offset: 3px;
   font-size: 24px;
   font-weight: 600;
   line-height: normal;
+  transition: .3s ease color,
+ .3s ease opacity;
 }
 
+.site-footer-logo-text:hover{
+  color: #ed2e54;
+}
+
+.site-footer-logo-text:active{
+  color: #fff;
+  opacity: .6;
+}
 
 .site-footer-actions{
   display: flex;
@@ -284,4 +362,15 @@ outline-offset: 3px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+  transition: .3s ease color,
+ .3s ease opacity;
+}
+
+.site-footer-nav-list a:hover{
+  color: #de2e54;
+}
+
+.site-footer-nav-list a:active{
+  color: #fff;
+  opacity: .6;
 }
